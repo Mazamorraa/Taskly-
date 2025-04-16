@@ -1,0 +1,58 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "contrasena": "123456",
+      "telefono": "123456789",
+      "direccion": "Calle Falsa 123",
+      "calificacion": 4.5,
+      "solicitudes": [
+        {
+          "id": 1,
+          "estado": "Pendiente",
+          "precioFinal": 100.0,
+          "fechaSolicitud": "2024-11-25T16:00:00Z",
+          "direccion": "Calle Falsa 123",
+          "servicio": {
+            "id": 1,
+            "nombre": "Servicio 1",
+            "descripcion": "Descripción del servicio 1",
+            "precio": 100
+          },
+          "especialista": {
+            "id": 2,
+            "nombre": "Ana Gomez",
+            "email": "ana.gomez@example.com",
+            "contrasena": "abcdef",
+            "telefono": "987654321",
+            "direccion": "Avenida Siempre Viva 742",
+            "calificacion": 4.7,
+            "solicitudes": [],
+            "profesion": "Electricista",
+            "servicios": [
+              {
+                "id": 1,
+                "nombre": "Instalación eléctrica",
+                "descripcion": "Instalación de sistemas eléctricos",
+                "precio": 200
+              }
+            ]
+          },
+          "cliente": {
+            "id": 1,
+            "nombre": "Juan Perez",
+            "email": "juan.perez@example.com",
+            "contrasena": "123456",
+            "telefono": "123456789",
+            "direccion": "Calle Falsa 123",
+            "calificacion": 4.5,
+            "solicitudes": []
+          }
+        }
+      ]
+    }
+  ]
+}
+
